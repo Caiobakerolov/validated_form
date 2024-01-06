@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration area</title>
+  <link rel="stylesheet" href="./css/Styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Registration Form</h1>
+    </header>
+    <section>    
+      <form id="container-form">
+        <label for="name">Name:</label>
+          <input type="name" id="name" name="name" placeholder="Name"/>
+        
+        <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Email" />
+        
+        <label for="cpf">Cpf:</label>
+          <input type="number" id="cpf" name="cpf" placeholder="CPF" />
+
+        <label for="passport">Passport:</label>
+        <input type="text" id="passport" name="passport" placeholder="passport number" />
+        
+        <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" placeholder="(00)00000-0000" />
+        
+        <label for="address">Address:</label>
+          <input type="address" id="address" name="address" placeholder="Address" />
+        
+        <label for="postcode">Postal code:</label>
+          <input type="number" id="postcode" name="postcode" placeholder="Postal code" />
+        
+        <label for="message">Message:</label>
+          <textarea id="message" name="message" cols="30" rows="10" placeholder="Ask your questions and we will answer you soon"></textarea>  
+          
+        <button type="submit" id="btn">Register</button>
+      </form>
+      
+    </section>
+  </main>
+  <footer>
+    <p>&copy; All rights reserved Mr. Baker</p>
+    <ul>
+      <li>
+        <a href="https://www.facebook.com/" target="_blank">
+          <img src="./img/icons8-facebook-50.png" alt="facebook">
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/" target="_blank">
+          <img src="./img/icons8-instagram-50.png" alt="instagram">
+        </a>
+      </li>      
+      <li id="twitter">
+        <a href="https://www.twitter.com/" target="_blank">
+          <img src="./img/icons8-twitter-50.png" alt="twitter">
+        </a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/" target="_blank">
+          <img src="./img/icons8-youtube-50.png" alt="youtube">
+        </a>
+      </li>
+    </ul>
+  </footer>
+  
+  <script src="./js/jQuery.js"></script>
+  <script src="./js/jquery.mask.min.js"></script>
+  <script src="./js/jquery.validate.min.js"></script>
+  <script src="./js/Scripts.js"></script>
+</body>
+</html>
